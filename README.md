@@ -5,7 +5,7 @@ Template that will be helpfull to create other repositories in order to build ML
 - [First steps](#first-steps)
     * [Find data](#find-data)
     * [Understand problem](#understand-problem)
-    * [Understand problem](#understand-problem)
+    * [Define objectives](#define-objectives)
 - [Data preparation](#data-preparation)
     * [Upload data](#upload-data)
     * [Data cleaning](#data-cleaning)
