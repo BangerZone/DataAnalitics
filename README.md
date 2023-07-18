@@ -3,8 +3,17 @@ Template that will be helpfull to create other repositories in order to build ML
 
 ## Table of contents
 - [First steps](#first-steps)
+    * [Find data](#find-data)
+    * [Understand problem](#understand-problem)
+    * [Understand problem](#understand-problem)
+- [Data preparation](#data-preparation)
     * [Upload data](#upload-data)
-    * [Data mine](#data-mining)
+    * [Data cleaning](#data-cleaning)
+    * [Data transformation](#data-transformation)
+- [Exploratory data analysis](#exploratory-data-analysis)
+- [Data modeling](#data-modeling)
+- [Visualisation](#visualization)
+- [Deploy and Maintain](#deploy-and-maintain)
 
 # First steps
 ## Find data
@@ -18,6 +27,8 @@ Good sources of data:
 - online repositories
 ## Understand problem
 After finding data set, there must be something to solve. Some predictions, analysis etc. has to be done.
+
+Define business requirements.
 ## Define objectives
 Moving foreward, to solve problems, define objectives. It means that, it has to be known what to do and why. Order is also important.
 
@@ -50,3 +61,24 @@ Give a look into:
 * usefullness - think about which column is usefull and which is not, if some columns are potencially usefull make sure they have proper data type.
 
 Then define and refine the selection of variables that will be usefull in the model development.
+
+# Data modeling
+Core activity of a data science project. It involves apllying different machine learning techniques.
+
+Examples:
+- KNN
+- Naive Bayes
+- Decision tree
+- Linear Regression
+
+Identify the model that fits best with business requirements. Train models and test and after few attempts compare, then select best performing one.
+
+# Visualization
+Next part is based on visualizing results of data analysis. Create summary to explain what has been done. Good way is to present reulst using graphs. 
+Remember to clearly specifie every important detail. Summary should be short and to the point.
+
+# Deploy and Maintain
+
+Last part of project is to test model before deploying and check if everything is working properly.
+
+After deploying project, generate and use reports and dashboards to get real time analytics.
